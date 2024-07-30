@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1>Panel</h1>
+        <button id="logoutButton">Close</button>
+    </header>
+
+    <div class="dashboard-container">
+        <div class="profile-section">
+            <img id="profileImage" src="images/default_profile.png" alt="Imagen de perfil">
+            <h2 id="username">Nombre de Usuario</h2>
+            <p id="email">correo@ejemplo.com</p>
+        </div>
+
+        <div class="account-summary">
+            <h3>Resumen de Cuenta</h3>
+            <p>Balance: <span id="balance">$0.00</span></p>
+            <p>Intereses Ganados: <span id="interestEarned">$0.00</span></p>
+        </div>
+
+        <div class="transactions-section">
+            <h3>Transacciones</h3>
+            <ul id="transactionsList">
+                <li>No hay transacciones para mostrar</li>
+            </ul>
+        </div>
+
+        <div class="chart-section">
+            <h3>Ganancias</h3>
+            <canvas id="earningsChart"></canvas>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

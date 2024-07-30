@@ -1,0 +1,15 @@
+[
+    {
+        "username": "1",
+        "date": "2024-07-01",
+        "description": "Depósito inicial",
+        "amount": 100.00
+    },
+    {
+        "username": "usuario2",
+        "date": "2024-07-02",
+        "description": "Depósito inicial",
+        "amount": 150.00
+    }
+    // Otras transacciones
+]

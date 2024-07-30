@@ -1,0 +1,147 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fondo oscuro */
+    color: #f5f5f5; /* Texto claro */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #1e1e1e; /* Fondo del encabezado */
+    color: #ffb74d; /* Color de texto destacado */
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 2px solid #ffb74d; /* Línea de separación */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten y no se superpongan */
+}
+
+header .logo {
+    height: 80px;
+    margin-right: 10px;
+    flex-shrink: 0; /* Evita que el logo se reduzca */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 700;
+    flex-grow: 1; /* Permite que el título ocupe el espacio disponible */
+    text-align: left;
+    margin-left: 20px;
+}
+
+.logout-button {
+    background-color: #ff5722;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    border: 2px solid #ff5722;
+    flex-shrink: 0; /* Evita que el botón se reduzca */
+}
+
+.logout-button:hover {
+    background-color: #e64a19;
+    border-color: #e64a19;
+    transform: scale(1.05);
+}
+
+.logout-button:active {
+    background-color: #d84315;
+    border-color: #d84315;
+    transform: scale(0.98);
+}
+
+/* Estilo para el contenedor del dashboard */
+.dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo para la sección del perfil */
+.profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-section img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border: 3px solid #ffb74d; /* Añade un borde para resaltar la imagen */
+}
+
+.profile-section h2 {
+    margin-top: 15px;
+    font-size: 1.8em;
+    color: #ffb74d;
+}
+
+.profile-section p {
+    color: #bdbdbd;
+    font-size: 1.1em;
+}
+
+/* Estilo para el resumen de la cuenta y las transacciones */
+.account-summary, .transactions-section, .chart-section {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.account-summary h3, .transactions-section h3, .chart-section h3 {
+    border-bottom: 2px solid #ffb74d;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #ffb74d;
+}
+
+.account-summary p, .transactions-section ul, .chart-section p {
+    margin: 10px 0;
+}
+
+.transactions-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transactions-section li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.transactions-section li:last-child {
+    border-bottom: none;
+}
+
+/* Estilo para la gráfica */
+.chart-section {
+    margin-top: 30px;
+}
+
+#earningsChart {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos adicionales para un diseño más cohesivo */
+h3 {
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+p, li {
+    font-size: 1.1em;
+}

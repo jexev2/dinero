@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    height: 80px;
+    margin-bottom: 10px; /* Añade espacio debajo del logo */
+}
+
+header .site-name {
+    margin: 0;
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #ffb74d;
+}
+
+.container {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro .site-tagline {
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #e0e0e0;
+    margin: 0 0 20px 0;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #bdbdbd;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.plan {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.plan h4 {
+    font-size: 1.5em;
+    color: #ffb74d;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 1.1em;
+    color: #bdbdbd;
+}
+
+.cta {
+    margin-top: 40px;
+}
+
+.btn-login {
+    background-color: #ffb74d;
+    color: #121212;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #ffa726;
+}

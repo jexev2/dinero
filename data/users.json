@@ -1,0 +1,19 @@
+[
+    {
+        "username": "1",
+        "email": "usuario1@ejemplo.com",
+        "password": "2",
+        "profileImage": "images/user1.png",
+        "balance": 100.00,
+        "interestEarned": 5.00
+    },
+    {
+        "username": "usuario2",
+        "email": "usuario2@ejemplo.com",
+        "password": "contraseña456",
+        "profileImage": "images/user2.png",
+        "balance": 150.00,
+        "interestEarned": 7.50
+    }
+    // Otros usuarios
+]
